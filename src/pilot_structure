@@ -1,0 +1,14 @@
+#include <MOE/MOE.hpp> // road map to other files including in program, do not go through recursively
+#include <Mahi/Com.hpp>
+#include <Mahi/Util.hpp>
+#include <Mahi/Daq.hpp>
+#include <Mahi/Robo.hpp>
+#include <vector> 
+
+using namespace mahi::util; // naming convention for variables, able to access outside of namespace
+using namespace mahi::daq;
+using namespace mahi::robo;
+using namespace mahi::com;
+using namespace moe;
+using namespace std;
+

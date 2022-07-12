@@ -40,7 +40,7 @@ void to_state(state& current_state_, const state next_state_, WayPoint current_p
     }
     current_state_ = next_state_;
     ref_traj_clock_.restart();
-}
+} 
 
 int main(int argc, char* argv[]) {
     // register ctrl-c handler
